@@ -4,7 +4,7 @@ ul{
         margin: 0%;
         padding: 0%;
         overflow: hidden;
-        background-color: #111111; /*Cor do fundo do texto*/
+       
         padding-right: 3%;
         padding-top: 0.5%;
     }
@@ -22,16 +22,20 @@ ul{
         }
 
         li a:hover {
-            background-color: #333333;
+            background-color: #fff;
         } /* Fim do CSS do Menu */
 
 /* Fim do CSS do body */
 body{
-    background-color:#fafafa;
-    font-family: 'Ek Mukta', sans-serif;
-    margin: 0%;
-    padding: 0%;
-    font-family: "Poppins", sans-serif;
+  width: 100%;
+  height: 100%;
+  font-family: 'Ek Mukta', sans-serif;
+  font-weight: 300;
+  color: #666;
+  background-color: #fff;
+  font-size: 16px;
+  line-height: 1.6em;
+  font-weight: 400;
 } /* Fim do CSS do body */
 
 
@@ -64,9 +68,10 @@ p{
 
 /* CSS do Logotipo na barra de menu */
 .site-logo {	
-	margin-top:40px;
-	margin-bottom:40px;
-    float: left;
+	margin-top:10px;
+	margin-bottom:10px;
+  margin-left: 4%;
+  margin-right: 20%;
 }
 
 .site-logo a.brand {
@@ -75,7 +80,7 @@ p{
 	font-family: 'Roboto', sans-serif;
 	font-weight: 900;
   text-decoration: none;
-  margin-left: 60%;
+  margin-left: -30%;
 	
 }
 .site-logo a.brand:hover {
