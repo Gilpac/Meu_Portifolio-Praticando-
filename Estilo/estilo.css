@@ -88,7 +88,10 @@ p{
 }
 /*Fim CSS do Logotipo na barra de menu */
 
-
+.imag{
+  margin-top: -7%;
+  height: 500px;
+}
 
 /* CSS da navegação */
 .navbar {
