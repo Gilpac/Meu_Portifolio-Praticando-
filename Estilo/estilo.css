@@ -41,6 +41,13 @@ body{
     margin-left: 1.5%;
 }
 
+
+hr{
+  text-align: center;
+  margin-left: 37%;
+  margin-right: 37%;
+}
+
 h2{
     text-align: center;
 }
